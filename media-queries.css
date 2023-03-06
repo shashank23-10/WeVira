@@ -1,0 +1,123 @@
+/* @media screen and (max-width: 2160px) {
+  html {
+    font-size: 110%;
+  }
+} */
+/* @media screen and (max-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+} */
+/* @media screen and (max-width: 1366px) {
+  html {
+    font-size: 84%;
+  }
+}*/
+
+/*--------------------------------------------------------------------- 1024 PX -----------------------------------------------------------------  */
+
+@media screen and (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+  .header .menu-bar .links {
+    margin-left: -45%;
+    margin-top: 0.6%;
+    margin-right: 15%;
+  }
+  .open .main-img img {
+    /* object-fit: cover; */
+  }
+  .open .text {
+    margin-top: 45%;
+    margin-bottom: 25%;
+  }
+  .about-us {
+    margin: 0 20%;
+    margin-bottom: 25%;
+  }
+}
+
+/*--------------------------------------------------------------------- 960 PX -----------------------------------------------------------------  */
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 58%;
+    overflow-x: hidden;
+  }
+  /*------------------------------------- HEADER --------------------------------------------------------  */
+  .header .menu-bar .logo img {
+    width: 3%;
+    padding-right: 1rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+  }
+  .header .menu-bar .links {
+    margin-left: -90%;
+    margin-top: 0.6%;
+    margin-right: 25%;
+  }
+
+  /*-------------------------------------------- OPEN and ABOUT --------------------------------------------*/
+  .open .main-img img {
+    object-fit: cover;
+    min-height: 100vh;
+  }
+  .open .text {
+    margin-top: 70%;
+    margin-bottom: 25%;
+  }
+  .about-us {
+    margin: 0 20%;
+    margin-bottom: 25%;
+  }
+  /*----------------------------------------------------------- TEAM ---------------------------------------  */
+  .board-members {
+    align-items: center;
+  }
+  /*-------------------------------------------------- CONTACT -----------------------------------------------  */
+  .contact {
+    display: inline;
+  }
+  .connect {
+    margin: 1rem 20%;
+  }
+  .map {
+    width: 50%;
+    margin: 3rem 25%;
+  }
+  /*----------------------------------------------------- FOOTER ----------------------------------------------  */
+  .footer-up .logo img {
+    width: 15%;
+  }
+  .footer-up .address {
+    margin-left: -50rem;
+    margin-right: 5rem;
+  }
+  .footer-up .links {
+    margin-right: 5rem;
+  }
+}
+
+/*--------------------------------------------------------------------- 768 PX -----------------------------------------------------------------  */
+
+@media screen and (max-width: 768px) {
+  html {
+  }
+  .header .menu-bar .links {
+    margin-left: -60%;
+  }
+  .open .main-img img {
+    object-fit: cover;
+    min-width: 100vw;
+    max-height: 100vh;
+  }
+  .open .text {
+    margin-top: 50%;
+    margin-bottom: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+  }
+}
